@@ -1,0 +1,45 @@
+
+
+.eb-garamond-font {
+  font-family: "EB Garamond", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.primary-btn{
+    background-color: #B68C5A;
+    padding: 10px 15px;
+    color: white;
+    font-weight: 600;
+    border-radius: 5px;
+
+    }
+  
+.banner{
+    width: 1280px;
+    height: 550px;
+    background-image: url('./images/Rectangle\ 5.png'), url('./images/banner.png');
+    background-position: center top, right bottom;
+    background-repeat: no-repeat, no-repeat;
+    background-size: cover;
+    margin: auto;
+    border-radius: 5px;
+}
+.banner-content{
+    width: 690px;
+    height: 355px;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    margin: auto;
+   
+    
+}
+
+.title{
+    font-size: 72px;
+    font-weight: 800;
+    color: #FFFFFF;
+    line-height: 100%;
+    padding-top: 60px;
+
+}

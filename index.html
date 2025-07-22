@@ -1,35 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+     <link rel="stylesheet" href="styles.css">
+     <link rel="stylesheet" href="tailwind.css">
+     <script src="https://kit.fontawesome.com/5e16507c06.js" crossorigin="anonymous"></script>
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
     <title>Document</title>
- 
+
 </head>
-<body>
-    <header>
-        <section  class="flex place-content-around">
+<body class="eb-garamond-font">
+    <header >
+        <section class="flex items-center text-center justify-between mx-auto my-10 max-w-7xl">
             <div>
                 <img src="./images/logo2.png" alt="">
             </div>
+            <!-- navbar -->
             <div>
-                <nav class="flex list-none gap-4 ">
-                    <li>Home</li>
-                    <li>Services</li>
-                    <li>Cases</li>
-                    <li>Blog</li>
-                    <li>Contact Us</li>
+                <nav class="flex list-none gap-6 caret-gray-700 ">
+                    <ul><a href="">Home</a></ul>
+                    <ul><a href="">Services</a> <span><i class="fa-solid fa-greater-than"></i></span></ul>
+                    <ul><a href="">Cases</a> <span><i class="fa-solid fa-greater-than"></i></span></ul>
+                    <ul><a href="">Blog</a> <span><i class="fa-solid fa-greater-than"></i></span></ul>
+                    <ul><a href="">Contact Us</a> <span><i class="fa-solid fa-greater-than"></i></span></ul>
                 </nav>
             </div>
-            <button class="" >Free Consultation</button>
+            <button class="primary-btn">Free Consultation</button>
+        </section>
+
+        <section class="banner">
+            <div class="banner-content">
+            <div class="w-2xl m-auto text-center items-center justify-center px">
+            <h1 class="title" >We Provide Effective Legal Solutions</h1>
+            <p class="text-white p-5">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+            </div>
+            <div class="text-center items-center justify-center flex gap-3">
+            <form class="bg-white px-30 py-2.5 border-4 rounded-lg" action="">
+                <input type="search" name="" id="" placeholder="Search your services">
+            </form>
+            
+            <button class="primary-btn" >Search</button> </div>
+            </div>
+            
         </section>
 
     </header>
 
-
     <main>
+         <h1 class="text-5xl font-bold text-center mt-30">The Legal Practice Area</h1>
+         <p class="text-center items-center justify-center mt-5">There are many variations of passages of Lorem Ipsum available, but the majority have <br> suffered alteration in some form, by injected humour.</p>   
+        
+             <!-- Card Section -->
+         <div>
+            <img src="./images/business.png" alt="">
+            <h1>Business Law</h1>
+            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+            <img src="./images/Frame.png" alt="">
 
+         </div>
     </main>
 
     <footer>
