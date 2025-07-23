@@ -4,6 +4,8 @@
   font-family: "EB Garamond", serif;
   font-optical-sizing: auto;
   font-style: normal;
+
+
 }
 .primary-btn{
     background-color: #B68C5A;
@@ -13,7 +15,7 @@
     border-radius: 5px;
 
     }
-  
+/* banner section */
 .banner{
     width: 1280px;
     height: 550px;
@@ -42,4 +44,56 @@
     line-height: 100%;
     padding-top: 60px;
 
+}
+
+/*  card section */
+
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 1280px;
+    height: 900px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+       
+}
+
+.cards{
+    width: 100%;
+    height: 500px;   
+    border-bottom: #B68C5A 1px  solid; 
+          
+  }
+
+.cards h1 {
+    font-size: 32px;
+    font-weight: 800;
+    padding-bottom: 15px;
+    
+}
+
+.cards img {
+     display: inline-block;
+     margin-bottom: 15px;
+     padding-top: 50px;
+}
+
+.cards p{
+    width: 200px;
+    height: 130px;
+    margin: auto;
+
+}
+
+/* client section */
+
+.client-say{
+    max-width: 1280px;
+    height: 700px;
+    background-color: antiquewhite;
+    margin: auto;
+    margin-top: 200px;
 }
